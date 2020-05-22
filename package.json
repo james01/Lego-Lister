@@ -3,6 +3,7 @@
 	"productName": "Lego Lister",
 	"version": "1.0.0",
 	"description": "Streamlines the process of listing a Lego set on eBay.",
+	"repository": "https://github.com/jwrand16/Lego-Lister",
 	"main": "main.js",
 	"scripts": {
 		"start": "electron .",
