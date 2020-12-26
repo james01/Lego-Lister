@@ -7,8 +7,8 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "build-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --icon=icons/mac/icon.icns --out=release-builds",
-    "build-win": "electron-packager . ebay_lister --overwrite --platform=win32 --arch=x64 --icon=icons/win/icon.ico --out=release-builds"
+    "build-mac": "electron-packager . lego_lister --platform=darwin --arch=x64 --icon=icons/mac/icon.icns --out=release-builds --overwrite ",
+    "build-win": "electron-packager . lego_lister --platform=win32 --arch=x64 --icon=icons/win/icon.ico --out=release-builds --overwrite "
   },
   "dependencies": {
     "dotenv": "^8.2.0",
@@ -19,6 +19,6 @@
   "devDependencies": {
     "electron": "^7.2.4",
     "electron-builder": "^22.6.1",
-    "electron-packager": "^14.1.1"
+    "electron-packager": "^15.2.0"
   }
 }
